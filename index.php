@@ -25,7 +25,9 @@
             <img src="images/logo.png" style="width: 170px; height: 120px;margin-top: 20px">
             <img src="images/techdaylogo2.png" alt="">
         </div>
+
         <div class="container" style="width: 1350px;">
+
             <form id="booking-form" class="booking-form" method="POST">
                 <div class="form-group">
                     <div class="form-destination">
@@ -60,6 +62,7 @@
                         <!-- <span class="icon"><i class="zmdi zmdi-calendar-alt"></i></span> -->
                     </div>
 
+
                     <div class="form-submit">
                         <input type="submit" id="submit" class="submit" value="GUARDAR" onclick="guardar()"  />
                     </div>
@@ -68,6 +71,11 @@
                 <div class="form-date-to form-icon">
                     <label >COMENTARIOS</label>
                     <textarea rows="5" cols="170" class="date-to" id="comentarios" placeholder="COMENTARIOS" style="text-transform: uppercase"></textarea>
+                    <br>
+                    <br>
+                    <a href="php/ExcelClientes.php" class="submit" type="submit" style="background: #449D44;color: #ffffff;">EXCEL</a>
+
+
                     <!-- <span class="icon"><i class="zmdi zmdi-calendar-alt"></i></span> -->
                 </div>
 
